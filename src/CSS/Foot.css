@@ -1,0 +1,10 @@
+.Foot_bar {
+    background: #470c64;
+}
+.Foot_div {
+    display: flexbox;
+}
+a {
+    font-size: 20px;
+    margin: 15px
+}

@@ -1,0 +1,42 @@
+.Skills{
+    padding: 4em;
+    color: white;
+    height: 50vh;
+    background: #171c45;
+    background: -webkit-linear-gradient(#171c45 80%, #470c64 100%);
+    font-size: 3em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr 1fr;
+    grid-row: 1 / 2;
+    border: 1px solid magenta;
+}
+.top {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    border: 1px solid blue;
+}
+.bottom {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    font-size: 18px;
+    border: 1px solid red;
+
+}
+
+.Carousel {
+    border: 1px solid green;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    cursor: pointer;
+    height: 100%;
+}
+
+.carousel_item {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+

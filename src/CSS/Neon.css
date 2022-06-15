@@ -1,0 +1,405 @@
+
+.neon-buttonGreen {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+    border: 0.2rem solid #fff;
+    border-radius: 1.5rem;
+    padding: 0.5em;
+    box-shadow: 
+         0 0 .2rem #fff,
+         0 0 .2rem #fff,
+         0 0 2rem #0fa,
+         0 0 0.8rem #0fa,
+         0 0 2.8rem #0fa,
+        inset 0 0 1.3rem #0fa;
+}
+.neon-buttonGreen::before {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    opacity: 0.7;
+}.neon-buttonGreen::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 
+        0 0 1rem #fff,
+        0 0 1rem #fff,
+        0 0 2rem #0fa,
+        0 0 1.8rem #0fa,
+        0 0 6rem #0fa,
+        inset 0 0 1.3rem #0fa;    opacity: 0;
+    z-index: -1;
+    transition: opacity 100ms linear;
+    background-color: #0fa;
+}
+.neon-buttonGreen:hover,
+.neon-buttonGreen:focus {
+    color: #fff;
+    text-shadow: none;
+}
+.neon-buttonGreen:hover::before,
+.neon-buttonGreen:focus::before {
+    opacity: 1;
+}
+.neon-buttonGreen:hover::after,
+.neon-buttonGreen:focus::after {
+    opacity: 1;
+}
+
+
+.neon-buttonPink {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09;
+      border: 0.2rem solid #fff;
+      border-radius: 1.5rem;
+      padding: 0.5em;
+      box-shadow: 
+        0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem #f09,
+        0 0 0.8rem #f09,
+        0 0 2.8rem #f09,
+        inset 0 0 1.3rem #f09;
+}
+.neon-buttonPink::before {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    opacity: 0.7;
+}.neon-buttonPink::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 
+        0 0 1rem #fff,
+        0 0 1rem #fff,
+        0 0 2rem #f09,
+        0 0 1.8rem #f09,
+        0 0 6rem #f09,
+        inset 0 0 1.3rem #f09;    opacity: 0;
+    z-index: -1;
+    transition: opacity 100ms linear;
+    background-color: #f09;
+
+}
+.neon-buttonPink:hover,
+.neon-buttonPink:focus {
+    color: #fff;
+    text-shadow: none;
+}
+.neon-buttonPink:hover::before,
+.neon-buttonPink:focus::before {
+    opacity: 1;
+}
+.neon-buttonPink:hover::after,
+.neon-buttonPink:focus::after {
+    opacity: 1;
+}
+
+
+.neon-buttonBlue {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
+      border: 0.2rem solid #fff;
+      border-radius: 1.5rem;
+      padding: 0.5em;
+      box-shadow: 
+        0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem #5271ff,
+        0 0 0.8rem #5271ff,
+        0 0 2.8rem #5271ff,
+        inset 0 0 1.3rem #5271ff;
+}
+.neon-buttonBlue::before {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    opacity: 0.7;
+}.neon-buttonBlue::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 
+        0 0 1rem #fff,
+        0 0 1rem #fff,
+        0 0 2rem #5271ff,
+        0 0 1.8rem #5271ff,
+        0 0 6rem #5271ff,
+        inset 0 0 1.3rem #5271ff;    opacity: 0;
+    z-index: -1;
+    transition: opacity 100ms linear;
+    background-color: #5271ff;
+
+}
+.neon-buttonBlue:hover,
+.neon-buttonBlue:focus {
+    color: #fff;
+    text-shadow: none;
+}
+.neon-buttonBlue:hover::before,
+.neon-buttonBlue:focus::before {
+    opacity: 1;
+}
+.neon-buttonBlue:hover::after,
+.neon-buttonBlue:focus::after {
+    opacity: 1;
+}
+
+
+.neon-buttonViolet {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #bc13fe,
+      0 0 82px #bc13fe,
+      0 0 92px #bc13fe,
+      0 0 102px #bc13fe,
+      0 0 151px #bc13fe;
+      border: 0.2rem solid #fff;
+      border-radius: 1.5rem;
+      padding: 0.5em;
+      box-shadow: 
+        0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem #bc13fe,
+        0 0 0.8rem #bc13fe,
+        0 0 2.8rem #bc13fe,
+        inset 0 0 1.3rem #bc13fe;
+}
+.neon-buttonViolet::before {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    opacity: 0.7;
+}.neon-buttonViolet::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 
+        0 0 2rem #fff,
+        0 0 2rem #fff,
+        0 0 2rem #bc13fe,
+        0 0 1.8rem #bc13fe,
+        0 0 3.8rem #bc13fe,
+        inset 0 0 1.3rem #bc13fe;    
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 100ms linear;
+    background-color: #bc13fe;
+}
+.neon-buttonViolet:hover,
+.neon-buttonViolet:focus {
+    color: #fff;
+    text-shadow: none;
+}
+.neon-buttonViolet:hover::before,
+.neon-buttonViolet:focus::before {
+    opacity: 1;
+}
+.neon-buttonViolet:hover::after,
+.neon-buttonViolet:focus::after {
+    opacity: 1;
+}
+
+
+
+
+.cls-1 {
+    fill: #fff;
+    filter: 
+    drop-shadow(0 0 .2rem #fff)
+    drop-shadow(0 0 2rem #bc13fe)
+    drop-shadow(0 0 2.8rem #bc13fe);
+    transition: opacity 100ms linear;
+}
+.cls-1:hover {
+    filter: 
+    drop-shadow(0 0 .2rem #fff)
+    drop-shadow(0 0 2rem #bc13fe)
+    drop-shadow(0 0 2rem #bc13fe)        
+    drop-shadow(0 0 1.8rem #bc13fe)
+    drop-shadow(0 0 2.8rem #bc13fe);
+    transition: opacity 100ms linear; 
+    
+}
+
+#Regular {
+    fill: #fff;
+    position: relative;
+    height: 40px;
+    top: .3em;
+    left: 0;
+    border: 0.2rem solid #fff;
+    border-radius: 1.5rem;
+    padding: 0.2em;
+    box-shadow: 
+    0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe,
+    0 0 2.8rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe;
+}
+#Regular:hover {
+    box-shadow: 
+    0 0 2rem #fff,
+    0 0 2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 1.8rem #bc13fe,
+    0 0 3.8rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe;    
+
+}
+
+#Regular_mail {
+    fill: #fff;
+    position: relative;
+    height: 33px;
+    width: 30px;
+    top: .3em;
+    left: 0;
+    border: 0.2rem solid #fff;
+    border-radius: 1.5rem;
+    padding: 0.5em;
+    box-shadow: 
+    0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe,
+    0 0 3.8rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe;
+}
+#Regular_mail:hover {
+    box-shadow: 
+    0 0 2rem #fff,
+    0 0 2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 1.8rem #bc13fe,
+    0 0 3.8rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe;    
+}
+
+
+
+
+.neonTextGreen {
+    color: #fff;
+    text-shadow:
+      /* White glow */
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      /* Green glow */
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+  }
+.neonTextPink {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09;
+}
+.neonTextBlue {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #5271ff,
+        0 0 82px #5271ff,
+        0 0 92px #5271ff,
+        0 0 102px #5271ff,
+        0 0 151px #5271ff;
+}
+.neonTextViolet {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #bc13fe,
+      0 0 82px #bc13fe,
+      0 0 92px #bc13fe,
+      0 0 102px #bc13fe,
+      0 0 151px #bc13fe;
+    fill: #fff;
+}
+#neonTextViolet {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #bc13fe,
+      0 0 82px #bc13fe,
+      0 0 92px #bc13fe,
+      0 0 102px #bc13fe,
+      0 0 151px #bc13fe;
+    fill: #fff;
+}
+
