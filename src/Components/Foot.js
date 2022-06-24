@@ -3,7 +3,7 @@ import { connectlinks } from "./Foot_data"
 
 const Foot = function () {
     return (
-        <div className="Foot">
+        <div className="Footbar">
             <nav className="Foot_bar">
                 <div className='Foot_div'>
                     {connectlinks.map((link) => {

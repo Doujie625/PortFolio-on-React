@@ -3,18 +3,14 @@
     z-index: 1;
     width: 100%;
     background-color: transparent;
-    border: orange;
-
 }
 .Nav_bar {
     display: flex;
     justify-content: space-evenly;
-    border: orange;
 
 }
 .Nav_div {
     display: flexbox;
-    border: orange;
 
 }
 

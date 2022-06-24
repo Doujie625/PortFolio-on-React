@@ -1,4 +1,4 @@
-import './CSS/App.css';
+import './CSS/App.css'
 import Nav from "./Components/Nav"
 import About from './Components/About';
 import Projects from './Components/Projects'
@@ -9,7 +9,6 @@ function App() {
 
   return (
     <div className="App">
-      
       <Nav/>
       <About />
       <Projects />

@@ -1,0 +1,132 @@
+
+.neon-buttonBlue {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
+      border: 0.2rem solid #fff;
+      border-radius: 1.5rem;
+      padding: 0.5em;
+      box-shadow: 
+        0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem #5271ff,
+        0 0 0.8rem #5271ff,
+        0 0 2.8rem #5271ff,
+        inset 0 0 1.3rem #5271ff;
+}
+.neon-buttonBlue::before {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    opacity: 0.7;
+}.neon-buttonBlue::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 
+        0 0 1rem #fff,
+        0 0 1rem #fff,
+        0 0 2rem #5271ff,
+        0 0 1.8rem #5271ff,
+        0 0 6rem #5271ff,
+        inset 0 0 1.3rem #5271ff;    opacity: 0;
+    z-index: -1;
+    transition: opacity 100ms linear;
+    background-color: #5271ff;
+
+}
+.neon-buttonBlue:hover,
+.neon-buttonBlue:focus {
+    color: #fff;
+    text-shadow: none;
+}
+.neon-buttonBlue:hover::before,
+.neon-buttonBlue:focus::before {
+    opacity: 1;
+}
+.neon-buttonBlue:hover::after,
+.neon-buttonBlue:focus::after {
+    opacity: 1;
+}
+
+
+
+.cls-1 {
+    fill: #fff;
+    filter: 
+    drop-shadow(0 0 .2rem #fff)
+    drop-shadow(0 0 2rem #5271ff)
+    drop-shadow(0 0 2.8rem #5271ff);
+    transition: opacity 100ms linear;
+}
+.cls-1:hover {
+    filter: 
+    drop-shadow(0 0 .2rem #fff)
+    drop-shadow(0 0 2rem #bc13fe)
+    drop-shadow(0 0 2rem #bc13fe)        
+    drop-shadow(0 0 1.8rem #bc13fe)
+    drop-shadow(0 0 2.8rem #bc13fe);
+    transition: opacity 100ms linear; 
+    
+}
+
+
+
+.Skill_Text {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #5271ff,
+        0 0 82px #5271ff,
+        0 0 92px #5271ff,
+        0 0 102px #5271ff,
+        0 0 151px #5271ff;
+}
+.Skill_Text:hover {
+    text-shadow:
+    0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 11px #fff,
+    0 0 21px #5271ff,
+    0 0 41px #5271ff,
+    0 0 46px #5271ff,
+    0 0 51px #5271ff,
+    0 0 75px #5271ff;
+}
+
+.Skill_Icon {
+    fill: #fff;
+    width: 100px;
+    height: 100px;
+    filter: 
+    drop-shadow(0 0 .2rem #fff)
+    drop-shadow(0 0 2rem #5271ff)
+    drop-shadow(0 0 2.8rem #5271ff);
+}
+
+.Skill_Icon:hover {
+    filter: 
+    drop-shadow(0 0 .2rem #fff)
+    drop-shadow(0 0 2rem #5271ff)
+    drop-shadow(0 0 2rem #5271ff)        
+    drop-shadow(0 0 1.8rem #5271ff)
+    drop-shadow(0 0 2.8rem #5271ff);
+    transition: opacity 100ms linear; 
+
+}

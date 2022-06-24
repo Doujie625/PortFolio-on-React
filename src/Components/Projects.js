@@ -4,19 +4,21 @@ import { projectData } from "./ProjectData";
 const Projects = function () {
   return (
     <div className="Projects" id="Projects">
-      <div className="top">
+
+      <div className="Projects_top">
         <p className="neonTextPink">Projects</p>
       </div>
-      <div className="bottom">
-      {projectData.map((link) => {
-          return (
-            <span key={link.id}>
-              <a href={link.url} key={link.id} className={link.class}>
-                {link.text}
-              </a>
-            </span>
-          );
-        })}
+
+      <div className="Projects_bottom">
+        {projectData.map((link) => {
+            return (
+              <div key={link.id} className="carousel_item">
+                <a href={link.url} key={link.id} className={link.class}>
+                  {link.text}
+                </a>
+              </div>
+            );
+          })}
       </div>
 
     </div>
