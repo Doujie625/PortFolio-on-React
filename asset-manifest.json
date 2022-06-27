@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/PortFolio-on-React/static/css/main.85ffda79.css",
+    "main.js": "/PortFolio-on-React/static/js/main.e1d747e0.js",
+    "static/js/787.1ed0c42c.chunk.js": "/PortFolio-on-React/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Ps.svg": "/PortFolio-on-React/static/media/Ps.49933b0a6a4b23f07e869f4fa9749c50.svg",
+    "static/media/Jquery.svg": "/PortFolio-on-React/static/media/Jquery.e76b4d58b95e8e2980314bc0a1e1b4b4.svg",
+    "static/media/Mongoose.svg": "/PortFolio-on-React/static/media/Mongoose.6db6add761ac617a864533283f910b9c.svg",
+    "static/media/React.svg": "/PortFolio-on-React/static/media/React.ee5e4a8fbec192b9a6d421a57ddd2c2b.svg",
+    "static/media/Mongo.svg": "/PortFolio-on-React/static/media/Mongo.77fae92a0c996003e5fce712d975ed38.svg",
+    "static/media/SVG.svg": "/PortFolio-on-React/static/media/SVG.816e1b6a557cff8ba472396c8a8b3dde.svg",
+    "static/media/Python.svg": "/PortFolio-on-React/static/media/Python.e8791a9f2a01182494c58de71c8a7e08.svg",
+    "static/media/Github_line.svg": "/PortFolio-on-React/static/media/Github_line.e19f99343734467f0b71e315f2a7e081.svg",
+    "static/media/Ai.svg": "/PortFolio-on-React/static/media/Ai.316d9b77fe952ed79828add7a3c553fb.svg",
+    "static/media/API.svg": "/PortFolio-on-React/static/media/API.ebe67180054101dcc21e0108158e68b5.svg",
+    "static/media/Node.svg": "/PortFolio-on-React/static/media/Node.c6e0dfc0cb7d1e5637b2e25eec042849.svg",
+    "static/media/Linkedin.svg": "/PortFolio-on-React/static/media/Linkedin.82eb272d0786cd3570aa07c362fd1ca9.svg",
+    "static/media/Github.svg": "/PortFolio-on-React/static/media/Github.e07e0c96c349082534989fce7c753aaf.svg",
+    "index.html": "/PortFolio-on-React/index.html",
+    "static/media/Heroku.svg": "/PortFolio-on-React/static/media/Heroku.3dcf65223448d83400bada1f60fa9b18.svg",
+    "static/media/Mail.svg": "/PortFolio-on-React/static/media/Mail.9dbfe9e507b78b7aefd9c8f5e8348707.svg",
+    "static/media/Git.svg": "/PortFolio-on-React/static/media/Git.7f6ede2e69942479e7856f70cf41e8eb.svg",
+    "static/media/JS.svg": "/PortFolio-on-React/static/media/JS.ddea9edb97327f2b9ba15d151922c774.svg",
+    "static/media/CSS3.svg": "/PortFolio-on-React/static/media/CSS3.b2aa1dcd19c6176410c3395afd680405.svg",
+    "static/media/html.svg": "/PortFolio-on-React/static/media/html.5c67c84b4dcbbd09b451bfa327783e5f.svg",
+    "main.85ffda79.css.map": "/PortFolio-on-React/static/css/main.85ffda79.css.map",
+    "main.e1d747e0.js.map": "/PortFolio-on-React/static/js/main.e1d747e0.js.map",
+    "787.1ed0c42c.chunk.js.map": "/PortFolio-on-React/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85ffda79.css",
+    "static/js/main.e1d747e0.js"
+  ]
+}
