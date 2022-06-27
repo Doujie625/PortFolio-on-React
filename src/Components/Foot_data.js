@@ -1,18 +1,24 @@
+import { ReactComponent as Mail } from './SVG/Mail.svg'
+import { ReactComponent as Github } from './SVG/Github_line.svg'
+import { ReactComponent as LinkedIn } from './SVG/Linkedin.svg'
+
+
+
 export const connectlinks = [
     {
         id:1,
         text:"Resume",
         url:'#Resume',
         class:"neon-buttonViolet",
-        icon: ""
+        icon: "",
 
     },
     {
         id:2,
         text:"Git",
         url:'https://git.generalassemb.ly/devin',
-        class:"neon-buttonViolet",
-        icon: ""
+        class:"Connect_Icon",
+        icon: <Github />,
 
 
     },
@@ -20,8 +26,8 @@ export const connectlinks = [
         id:3,
         text:"LinkedIn",
         url:'https://www.linkedin.com/feed/?trk=homepage-basic_signin-form_submit',
-        class:"neon-buttonViolet",
-        icon: ""
+        class:"Connect_Icon",
+        icon: <LinkedIn />,
 
 
     },
@@ -29,8 +35,8 @@ export const connectlinks = [
         id:4,
         text:"Email",
         url:'mailto:devin_jansa@icloud.com',
-        class:"neon-buttonViolet",
-        icon: ""
+        class:"Connect_Icon",
+        icon: <Mail />,
 
     }
 ]

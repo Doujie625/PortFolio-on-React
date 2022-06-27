@@ -13,6 +13,8 @@ import { ReactComponent as Ps } from './SVG/Ps.svg'
 import { ReactComponent as Ai } from './SVG/Ai.svg'
 import { ReactComponent as SVG } from './SVG/SVG.svg'
 import { ReactComponent as API } from './SVG/API.svg'
+import { ReactComponent as Mongoose } from './SVG/Mongoose.svg'
+
 
 
 export const skillData = [
@@ -74,6 +76,8 @@ export const skillData = [
         text:"Mongoose",
         url:'',
         class:"neonTextBlue",
+        icon: <Mongoose />,
+
     },
     {
         id:11,

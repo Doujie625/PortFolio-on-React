@@ -7,8 +7,8 @@ const About = function () {
             <div className="About_top">
                 <p className="neonTextGreen">Devin Jansa</p>
             </div>
-            <div className="About_bottom">
-                <p>Mission Statement will go here.</p>
+            <div className="About_bottom" >
+                <p className='About_Text'>I am a full-stack engineer with a background in Art and Design. I work to solve problems through the development and implementation of innovative solutions. Leveraging my background in art and design in conjunction with my training as a software engineer allows me to create artistic and analytical strategies.</p>
             </div>
         </div>
     )

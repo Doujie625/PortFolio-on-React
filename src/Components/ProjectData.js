@@ -4,7 +4,8 @@ export const projectData = [
         text:"Curator",
         url:'',
         class:"neonTextPink",
-        position:"left"
+        position:"left",
+        url: "https://doujie625.github.io/Curator/"
     },
     {
         id:2,
@@ -15,7 +16,7 @@ export const projectData = [
     },
     {
         id:3,
-        text:"Project 3",
+        text:"Capstone Project",
         url:'',
         class:"neonTextPink",
         position:"right"
