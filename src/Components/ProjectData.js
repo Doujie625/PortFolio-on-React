@@ -16,8 +16,8 @@ export const projectData = [
     },
     {
         id:3,
-        text:"Capstone Project",
-        url:'',
+        text:"Jelly Maker",
+        url:'https://github.com/Doujie625/Jelly-Maker',
         class:"neonTextPink",
         position:"right"
     }
