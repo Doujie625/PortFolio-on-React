@@ -6,7 +6,6 @@ import { skillData } from "./SkillData";
 
 const Skills = function () {
   const ref = useRef(null);
-
   const [width, setWidth] = useState();
 
   useEffect(() => {
@@ -36,7 +35,7 @@ const Skills = function () {
       <div className="Skill_top" id="Top">
         <p className="neonTextBlue">Skills</p>
       </div>
-
+      
       <div className="Skill_bottom" ref={ref}>
 
         <div className="left_button" onClick={prev}>
@@ -63,13 +62,7 @@ const Skills = function () {
             V
           </p>
         </div>
-
-
-
       </div>
-      
-
-
     </div>
   );
 };

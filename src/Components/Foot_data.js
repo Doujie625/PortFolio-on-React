@@ -16,7 +16,7 @@ export const connectlinks = [
     {
         id:2,
         text:"Git",
-        url:'https://git.generalassemb.ly/devin',
+        url:'https://github.com/Doujie625',
         class:"Connect_Icon",
         icon: <Github />,
 
