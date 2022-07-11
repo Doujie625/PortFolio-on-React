@@ -11,13 +11,13 @@ const Foot = function () {
                     {connectlinks.map((link) => {
                         if (link.icon == "") {
                             return (
-                                <a href={link.url} key={link.id} className={link.class}>
+                                <a href={link.url} key={link.id} className={link.class} id='font'>
                                     {link.text}
                                 </a>
                             )
                         } else 
                             return (
-                                <a href={link.url} key={link.id} className={link.class}>
+                                <a href={link.url} key={link.id} className={link.class} id='svg'>
                                     {link.icon}
                                 </a>
                             )

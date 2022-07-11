@@ -151,11 +151,9 @@
 
 .Connect_Icon:hover {
     filter: 
-    drop-shadow(0 0 .2rem #fff)
+    drop-shadow(0 0 1rem #fff)
     drop-shadow(0 0 2rem #bc13fe)
-    drop-shadow(0 0 2rem #bc13fe)        
     drop-shadow(0 0 1.8rem #bc13fe)
-    drop-shadow(0 0 2.8rem #bc13fe);
+    drop-shadow(0 0 6rem #bc13fe);
     transition: opacity 100ms linear; 
-
 }

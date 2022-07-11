@@ -10,26 +10,20 @@ const Skills = function () {
 
   useEffect(() => {
     setWidth(ref.current.offsetWidth);
-    console.log(width);
   });
 
   const scroll = (scrollOffset) => {
     setWidth(ref.current.offsetWidth);
-    // console.log(width);
-    ref.current.scrollLeft += scrollOffset;
-    console.log("width", ref.current.offsetWidth);
+   ref.current.scrollLeft += scrollOffset;
   };
 
   const prev = () => {
     scroll(-width);
-    console.log("scrolled left: " + width)
   };
   const next = () => {
     scroll(width);
-    console.log("scrolled right: " + width)
 
   };
-  console.log(width % 600)
   return (
     <div className="Skills" id="Skills">
       <div className="Skill_top" id="Top">

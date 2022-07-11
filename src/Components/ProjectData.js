@@ -9,8 +9,8 @@ export const projectData = [
     },
     {
         id:2,
-        text:"French Fry",
-        url:'',
+        text:"JellyFish",
+        url:'https://doujie625.github.io/JellyFish/',
         class:"neonTextPink",
         position:"middle"
     },

@@ -232,13 +232,12 @@
     left: 0;
     right: 0;
     box-shadow: 
-        0 0 2rem #fff,
-        0 0 2rem #fff,
+        0 0 1rem #fff,
+        0 0 1rem #fff,
         0 0 2rem #bc13fe,
         0 0 1.8rem #bc13fe,
-        0 0 3.8rem #bc13fe,
-        inset 0 0 1.3rem #bc13fe;    
-    opacity: 0;
+        0 0 6rem #bc13fe,
+        inset 0 0 1.3rem #bc13fe;    opacity: 0;
     z-index: -1;
     transition: opacity 100ms linear;
     background-color: #bc13fe;

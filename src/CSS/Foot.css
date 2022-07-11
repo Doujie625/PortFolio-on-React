@@ -1,10 +1,25 @@
-.Foot_bar {
+.Footbar {
+    position: relative;
+    z-index: 1;
+    width: 100%;
     background: #470c64;
 }
+
+.Foot_bar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .Foot_div {
     display: flexbox;
 }
+
 a {
     font-size: 20px;
-    margin: 15px
+    margin: 15px;
+}
+
+#svg {
+    position: relative;
+    top: 15px;
 }

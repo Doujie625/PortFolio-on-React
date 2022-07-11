@@ -3,6 +3,7 @@
     color: white;
     /* height: 50vh; */
     height: 90vh;
+    text-align: center;
     background: #171c45;
     background: -webkit-linear-gradient(#171c45 80%, #470c64 100%);
     font-size: 3em;
