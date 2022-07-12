@@ -4,8 +4,8 @@
     color: white;
     height: 100vh;
     text-align: center;
-    background-color: #103623;
-    background: -webkit-linear-gradient(#103623 80%, #540934 100%);
+    /* background-color: #103623;
+    background: -webkit-linear-gradient(#103623 80%, #540934 100%); */
     font-size: 5em;
     display: grid;
     grid-template-columns: 1fr;

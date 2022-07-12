@@ -1,4 +1,5 @@
 import CSS from "./../CSS/Projects.css";
+import "./../CSS/style.css"
 import { projectData } from "./ProjectData";
 
 const Projects = function () {
@@ -11,13 +12,28 @@ const Projects = function () {
 
       <div className="Projects_bottom">
         {projectData.map((link) => {
+          if (link.text == "JellyFish") {
             return (
               <div key={link.id} className="carousel_item">
                 <a href={link.url} key={link.id} className={link.class}>
+                  <div id="sprite-icon">
+                    <div className="pink" id="sprite-image">
+                    </div>
+                  </div>
                   {link.text}
                 </a>
               </div>
             );
+          } else {
+            return (
+              <div key={link.id} className="carousel_item">
+                <a href={link.url} key={link.id} className={link.class}>
+                  {link.icon}
+                  {link.text}
+                </a>
+              </div>
+            );
+            }
           })}
       </div>
 

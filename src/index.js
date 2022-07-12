@@ -13,8 +13,6 @@ root.render(
     </HashRouter>
   </React.StrictMode>
 );
-console.log('public url: ', process.env.PUBLIC_URL)
-
 
 
 // If you want to start measuring performance in your app, pass a function

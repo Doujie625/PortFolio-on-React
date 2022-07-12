@@ -3,7 +3,7 @@
     color: white;
     height: 100vh;
     text-align: center;
-    background: -webkit-linear-gradient(#540934 80%, #171c45 100%);
+    /* background: -webkit-linear-gradient(#540934 80%, #171c45 100%); */
     font-size: 3em;
     display: grid;
     grid-template-columns: 1em auto 1em;

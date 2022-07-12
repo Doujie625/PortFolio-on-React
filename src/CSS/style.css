@@ -1,0 +1,93 @@
+
+#sprite-container {
+    position:absolute;
+    width: 300px;
+    height: 200px;
+    
+}
+
+
+#sprite-image {
+    width: 300px;
+    height: 200px;
+    /* animation: play 0.7s steps(7) infinite;     */
+}
+#sprite-image:hover {
+    stroke: #fff;
+    fill-opacity: 0.3;
+    transition: opacity 100ms linear; 
+}
+
+
+.green {
+    background: url("../Components/SVG/Jelly_six_1.svg") no-repeat;
+    animation: play-green 0.7s steps(7) infinite;  
+    background-position: 0 0;
+}
+.green:hover {
+    background-position: -900px 0;
+    animation: play-green-hover 0.7s steps(7) infinite;    
+}
+
+
+.pink {
+    background: url("../Components/SVG/Jelly_six_1.svg") no-repeat;
+    background-position: -300px 0;
+    animation: play-pink 0.7s steps(7) infinite;    
+}
+.pink:hover {
+    background-position: -1200px 0;
+    animation: play-pink-hover 0.7s steps(7) infinite;    
+}
+
+
+.blue {
+    background: url("../Components/SVG/Jelly_six_1.svg") no-repeat;
+    background-position: -600px 0;
+    animation: play-blue 0.7s steps(7) infinite;    
+
+}
+.blue:hover {
+    background-position: -1500px 0;
+    animation: play-blue-hover 0.7s steps(7) infinite;    
+}
+
+
+
+
+@keyframes play-green {
+    100% {
+      background-position: 0 -1400px;
+    }
+}
+@keyframes play-green-hover {
+    100% {
+      background-position: -900px -1400px;
+    }
+}
+
+
+@keyframes play-pink {
+    100% {
+      background-position: -300px -1400px;
+    }
+}
+@keyframes play-pink-hover {
+    100% {
+      background-position: -1200px -1400px;
+    }
+}
+
+
+@keyframes play-blue {
+    100% {
+      background-position: -600px -1400px;
+    }
+}
+@keyframes play-blue-hover {
+    100% {
+      background-position: -1500px -1400px;
+    }
+}
+
+

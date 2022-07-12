@@ -1,8 +1,9 @@
 .Footbar {
-    position: relative;
+    position: fixed;
     z-index: 1;
     width: 100%;
-    background: #470c64;
+    /* background: #470c64; */
+    bottom: 0;
 }
 
 .Foot_bar {

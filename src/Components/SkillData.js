@@ -31,7 +31,6 @@ export const skillData = [
         url:'',
         class:"neonTextBlue",
         icon: <CSS3 />,
-
     },
     {
         id:3,
@@ -53,31 +52,41 @@ export const skillData = [
         url:'',
         class:"neonTextBlue",
         icon: <React />,
-
     },
     {
         id:6,
-        text:"Heroku",
+        text:"Node.js",
         url:'',
         class:"neonTextBlue",
-        icon: <Heroku />,
-
+        icon: <Node />,
     },
     {
         id:7,
-        text:"MongoDB",
+        text:"Express",
         url:'',
         class:"neonTextBlue",
-        icon: <MongoDB />,
-
+        icon: "",
     },
     {
         id:8,
+        text:"MongoDB",
+        url:'',
+        class:"neonTextBlue",
+        icon: <MongoDB />
+    },
+    {
+        id:9,
         text:"Mongoose",
         url:'',
         class:"neonTextBlue",
         icon: <Mongoose />,
-
+    },
+    {
+        id:10,
+        text:"SQL",
+        url:'',
+        class:"neonTextBlue",
+        icon: '',
     },
     {
         id:11,
@@ -88,64 +97,77 @@ export const skillData = [
     },
     {
         id:12,
-        text:"Node.js",
+        text:"Django",
         url:'',
         class:"neonTextBlue",
-        icon: <Node />,
-
+        icon: '',
+    },
+    {
+        id:13,
+        text:"Ruby",
+        url:'',
+        class:"neonTextBlue",
+        icon: "",
     },
     {
         id:14,
+        text:"Rails",
+        url:'',
+        class:"neonTextBlue",
+        icon: "",
+    },
+    {
+        id:15,
+        text:"Heroku",
+        url:'',
+        class:"neonTextBlue",
+        icon: <Heroku />,    },
+    {
+        id:16,
         text:"Git",
         url:'',
         class:"neonTextBlue",
         icon: <Git />,
-
     },
     {
-        id:15,
+        id:17,
         text:"Github",
         url:'',
         class:"neonTextBlue",
         icon: <Github />,
-
     },
     {
-        id:16,
+        id:18,
         text:"Adobe Ps",
         url:'',
         class:"neonTextBlue",
         icon: <Ps />,
-
     },
     {
-        id:17,
+        id:19,
         text:"Adobe Ai",
         url:'',
         class:"neonTextBlue",
         icon: <Ai />,
-
     },
     {
-        id:18,
+        id:20,
         text:"SVG",
         url:'',
         class:"neonTextBlue",
         icon: <SVG />,
-
     },
     {
-        id:19,
+        id:21,
         text:"Canvas",
         url:'',
         class:"neonTextBlue",
     },
     {
-        id:20,
+        id:22,
         text:"Rest API's",
         url:'',
         class:"neonTextBlue",
         icon: <API />,
-
     },
 ]

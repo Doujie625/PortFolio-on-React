@@ -16,9 +16,9 @@ code {
     monospace;
 }
 
-#canvas {
+canvas {
   position:absolute;
-  width:100%;
-  height:100%;
   z-index: -1;
+  background: -webkit-linear-gradient(#103623 0%, #103623 26.66%, #540934 33.33%, #540934 60%, #171c45 66.66%, #171c45 93.33%, #470c64 100%);
 }
+
