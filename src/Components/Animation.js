@@ -1,7 +1,4 @@
 import React from 'react'
-import Ball from "./Ball";
-import Jelly from './JellyCanvas';
-
 import currentJelly from './../Components/SVG/Jelly_six_1.svg'
 
 class Animation extends React.Component {
@@ -17,16 +14,9 @@ class Animation extends React.Component {
       // this.jellies = [];
     }
     
-
     loop = () => {
       this.ctx.clearRect(0, 0, this.width, this.height); //content of previous frame cleared
       requestAnimationFrame(this.loop);
-
-      console.log(this.x)
-      console.log(this.width)
-      console.log(this.canvas.width)
-
-
       this.spriteWidth = this.jelly.width / this.cols
 
       this.spriteHeight = this.jelly.height / this.rows
@@ -47,7 +37,6 @@ class Animation extends React.Component {
         this.spriteWidth, 
         this.spriteHeight
       )
-
       //Controlls the speed at which the frames roll
       this.framesDrawn++
       if (this.framesDrawn >= 10.5) {
@@ -81,7 +70,6 @@ class Animation extends React.Component {
         this.srcX = this.srcX + 900
       }
     };
-
   
     random(min, max) {
       return Math.floor(Math.random() * (max - min)) + min;
@@ -136,6 +124,4 @@ class Animation extends React.Component {
       );
     }
   }
-  
-
 export default Animation

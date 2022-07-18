@@ -6,22 +6,31 @@ import About from './Components/About';
 import Projects from './Components/Projects'
 import Skills from './Components/Skills'
 import Foot from './Components/Foot'
-import Jelly from './Components/Jelly'
 import Animation from './Components/Animation'
 
-function App() {
+import React, { useEffect, useState } from 'react';
 
-  let width = window.innerWidth
+function App() {
+  const [deviceSize, setDeviceSize] = useState()
+  
+  useEffect(() => {
+    if (window.innerWidth < 640) {
+      setDeviceSize('small')
+    } else if (window.innerWidth > 640 && window.innerWidth < 1008) {
+      setDeviceSize('medium')
+    } else {
+      setDeviceSize('large')
+    }
+  }) 
 
   return (
     <div className="App" >
       <Animation />
-      <Nav/>
+      <Nav />
       <About />
-      <Projects />
-      <Skills />
+      <Projects deviceSize={deviceSize}/>
+      <Skills deviceSize={deviceSize}/>
       <Foot />
-      {/* <Jelly /> */}
     </div>
   );
 }

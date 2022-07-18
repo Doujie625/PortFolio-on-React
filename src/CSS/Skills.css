@@ -11,7 +11,7 @@
     grid-template-columns: 1em auto 1em;
     grid-template-rows: .2fr 1fr;
     grid-row: 1 / 2;
-    z-index: 2;
+    /* z-index: 2; */
 }
 .Skill_top {
     padding: 1em 0 1em 0;
@@ -30,10 +30,17 @@
     scroll-behavior: smooth;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    /* border: 1px solid green; */
+
 }
 .Skill_bottom::-webkit-scrollbar {
     display: none;
 }
+
+/* .carousel {
+    border: 1px solid red;
+    width: 90%;
+} */
 
 .carousel_item {
     display: grid;
@@ -67,6 +74,7 @@
 }
 #right_arrow {
     transform: rotate(-90deg);
+
 }
 #left_arrow {
     transform: rotate(90deg);

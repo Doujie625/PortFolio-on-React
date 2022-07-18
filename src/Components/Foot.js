@@ -2,8 +2,8 @@ import CSS from './../CSS/Foot.css'
 import { connectlinks } from "./Foot_data"
 
 
-const Foot = function () {
-
+const Foot = function (props) {
+    
     return (
         <div className="Footbar">
             <nav className="Foot_bar">

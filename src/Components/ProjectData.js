@@ -1,3 +1,5 @@
+import curator_icon from './../Components/Icons/Curator.png'
+
 
 export const projectData = [
     {
@@ -6,7 +8,7 @@ export const projectData = [
         class:"neonTextPink",
         position:"left",
         url: "https://doujie625.github.io/Curator/",
-        icon: "",    
+        icon: curator_icon,    
     },
     {
         id:2,

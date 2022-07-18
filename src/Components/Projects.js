@@ -6,7 +6,7 @@ const Projects = function () {
   return (
     <div className="Projects" id="Projects">
 
-      <div className="Projects_top">
+      <div className="Projects_top" id="Top">
         <p className="neonTextPink">Projects</p>
       </div>
 
@@ -28,7 +28,9 @@ const Projects = function () {
             return (
               <div key={link.id} className="carousel_item">
                 <a href={link.url} key={link.id} className={link.class}>
-                  {link.icon}
+                  <img id="icons" src={link.icon} />
+                  <br/>
+                  <br/>
                   {link.text}
                 </a>
               </div>
