@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/PortFolio-on-React/static/css/main.9c509a87.css",
-    "main.js": "/PortFolio-on-React/static/js/main.a47f5bd9.js",
+    "main.css": "/PortFolio-on-React/static/css/main.02c6bf5e.css",
+    "main.js": "/PortFolio-on-React/static/js/main.5bbd859d.js",
     "static/js/787.1ed0c42c.chunk.js": "/PortFolio-on-React/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Curator.png": "/PortFolio-on-React/static/media/Curator.1fb5d89f015cea303c51.png",
     "static/media/Ps.svg": "/PortFolio-on-React/static/media/Ps.49933b0a6a4b23f07e869f4fa9749c50.svg",
+    "static/media/Jelly_six_1.svg": "/PortFolio-on-React/static/media/Jelly_six_1.d5aacced4f0f57762dcaee45318a1eb9.svg",
+    "static/media/PSTGRES.svg": "/PortFolio-on-React/static/media/PSTGRES.a7ad8b71362d11f059032202b5bcf169.svg",
+    "static/media/RAILS.svg": "/PortFolio-on-React/static/media/RAILS.177c3d8d8ef4e5e126c6818709753578.svg",
     "static/media/Jquery.svg": "/PortFolio-on-React/static/media/Jquery.e76b4d58b95e8e2980314bc0a1e1b4b4.svg",
+    "static/media/RUBY.svg": "/PortFolio-on-React/static/media/RUBY.8726a7e640c81329d66424f53045116f.svg",
     "static/media/Mongoose.svg": "/PortFolio-on-React/static/media/Mongoose.6db6add761ac617a864533283f910b9c.svg",
     "static/media/React.svg": "/PortFolio-on-React/static/media/React.ee5e4a8fbec192b9a6d421a57ddd2c2b.svg",
     "static/media/Mongo.svg": "/PortFolio-on-React/static/media/Mongo.77fae92a0c996003e5fce712d975ed38.svg",
+    "static/media/SQL.svg": "/PortFolio-on-React/static/media/SQL.40fd6f5eb303af40a2ffe96304648fc3.svg",
     "static/media/SVG.svg": "/PortFolio-on-React/static/media/SVG.816e1b6a557cff8ba472396c8a8b3dde.svg",
     "static/media/Python.svg": "/PortFolio-on-React/static/media/Python.e8791a9f2a01182494c58de71c8a7e08.svg",
     "static/media/Github_line.svg": "/PortFolio-on-React/static/media/Github_line.e19f99343734467f0b71e315f2a7e081.svg",
@@ -17,18 +23,19 @@
     "static/media/Linkedin.svg": "/PortFolio-on-React/static/media/Linkedin.82eb272d0786cd3570aa07c362fd1ca9.svg",
     "static/media/Github.svg": "/PortFolio-on-React/static/media/Github.e07e0c96c349082534989fce7c753aaf.svg",
     "index.html": "/PortFolio-on-React/index.html",
+    "static/media/DJANGO.svg": "/PortFolio-on-React/static/media/DJANGO.dedb842add4b39a54f1f3827cce998d1.svg",
     "static/media/Heroku.svg": "/PortFolio-on-React/static/media/Heroku.3dcf65223448d83400bada1f60fa9b18.svg",
     "static/media/Mail.svg": "/PortFolio-on-React/static/media/Mail.9dbfe9e507b78b7aefd9c8f5e8348707.svg",
     "static/media/Git.svg": "/PortFolio-on-React/static/media/Git.7f6ede2e69942479e7856f70cf41e8eb.svg",
     "static/media/JS.svg": "/PortFolio-on-React/static/media/JS.ddea9edb97327f2b9ba15d151922c774.svg",
     "static/media/CSS3.svg": "/PortFolio-on-React/static/media/CSS3.b2aa1dcd19c6176410c3395afd680405.svg",
     "static/media/html.svg": "/PortFolio-on-React/static/media/html.5c67c84b4dcbbd09b451bfa327783e5f.svg",
-    "main.9c509a87.css.map": "/PortFolio-on-React/static/css/main.9c509a87.css.map",
-    "main.a47f5bd9.js.map": "/PortFolio-on-React/static/js/main.a47f5bd9.js.map",
+    "main.02c6bf5e.css.map": "/PortFolio-on-React/static/css/main.02c6bf5e.css.map",
+    "main.5bbd859d.js.map": "/PortFolio-on-React/static/js/main.5bbd859d.js.map",
     "787.1ed0c42c.chunk.js.map": "/PortFolio-on-React/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c509a87.css",
-    "static/js/main.a47f5bd9.js"
+    "static/css/main.02c6bf5e.css",
+    "static/js/main.5bbd859d.js"
   ]
 }
