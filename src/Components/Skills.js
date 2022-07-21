@@ -41,7 +41,7 @@ const Skills = function (props) {
 
         {skillData.map((link) => {
           return (
-              <div key={link.id} className="carousel_item" >
+              <div key={link.id} className="skill_carousel_item" >
                 <h1 className="Skill_Icon" href={link.url} >
                   {link.icon}   
                 </h1>

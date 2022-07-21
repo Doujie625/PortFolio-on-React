@@ -1,4 +1,5 @@
 import curator_icon from './../Components/Icons/Curator.png'
+import jellybase_icon from './../Components/Icons/JellyBase.png'
 
 
 export const projectData = [
@@ -24,6 +25,6 @@ export const projectData = [
         url:'https://github.com/Doujie625/Jelly-Maker',
         class:"neonTextPink",
         position:"right",
-        icon: "",
+        icon: jellybase_icon,
     }
 ]
