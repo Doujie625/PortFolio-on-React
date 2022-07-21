@@ -22,7 +22,7 @@ export const projectData = [
     {
         id:3,
         text:"Jelly Maker",
-        url:'https://github.com/Doujie625/Jelly-Maker',
+        url:'https://jellybase.herokuapp.com/',
         class:"neonTextPink",
         position:"right",
         icon: jellybase_icon,

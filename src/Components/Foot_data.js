@@ -25,7 +25,7 @@ export const connectlinks = [
     {
         id:3,
         text:"LinkedIn",
-        url:'https://www.linkedin.com/feed/?trk=homepage-basic_signin-form_submit',
+        url:'https://linkedin.com/in/devinjansa',
         class:"Connect_Icon",
         icon: <LinkedIn />,
 
