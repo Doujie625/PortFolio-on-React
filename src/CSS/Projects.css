@@ -4,7 +4,7 @@
     height: 100vh;
     text-align: center;
     /* background: -webkit-linear-gradient(#540934 80%, #171c45 100%); */
-    font-size: 3em;
+    font-size: 4vw;
     display: grid;
     grid-template-columns: 1em auto 1em;
     grid-template-rows: .5fr 1fr;

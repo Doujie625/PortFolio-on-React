@@ -6,7 +6,7 @@
     text-align: center;
     /* background: #171c45;
     background: -webkit-linear-gradient(#171c45 80%, #470c64 100%); */
-    font-size: 3em;
+    font-size: 4vw;
     display: grid;
     grid-template-columns: 1em auto 1em;
     grid-template-rows: .2fr 1fr;
