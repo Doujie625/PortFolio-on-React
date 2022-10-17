@@ -64,6 +64,33 @@
     width: 300px;
 }
 
+.left_button {
+    display: flex;
+    left: 1em;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    cursor: pointer;
+
+}
+.right_button {
+    display: flex;
+    right: 1em;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    cursor: pointer;
+
+}
+#right_arrow {
+    transform: rotate(-90deg);
+}
+#left_arrow {
+    transform: rotate(90deg);
+}
+
 @media screen and (max-width: 700px) {
     .Projects_top {
         padding: 4em 0 0em 0;
