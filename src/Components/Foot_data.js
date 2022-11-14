@@ -8,7 +8,7 @@ export const connectlinks = [
     {
         id:1,
         text:"Resume",
-        url:'https://1drv.ms/w/s!AocPESICraLAgZBq3QTBzuC0wHdmsw?e=tMVoBP',
+        url:'https://docs.google.com/document/d/1W-LK9l0ILHXYDxNVMSeDdPutIQANg5S9/edit?usp=sharing&ouid=115699701063564436623&rtpof=true&sd=true',
         class:"neon-buttonViolet",
         icon: "",
 
