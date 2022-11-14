@@ -1,6 +1,6 @@
 import curator_icon from './../Components/Icons/Curator.png'
 import jellybase_icon from './../Components/Icons/JellyBase.png'
-
+import silvie from './../Components/Icons/silvie.png'
 
 export const projectData = [
     {
@@ -21,10 +21,10 @@ export const projectData = [
     },
     {
         id:3,
-        text:"Jelly Maker",
-        url:'https://jellybase.herokuapp.com/',
+        text:"Mastering Czech",
+        url:'http://masteringczech.com/',
         class:"neonTextPink",
         position:"right",
-        icon: jellybase_icon,
+        icon: silvie,
     }
 ]
