@@ -19,6 +19,9 @@ import { ReactComponent as DJANGO } from './SVG/DJANGO.svg'
 import { ReactComponent as RUBY } from './SVG/RUBY.svg'
 import { ReactComponent as RAILS } from './SVG/RAILS.svg'
 import { ReactComponent as PSTGRES } from './SVG/PSTGRES.svg'
+import { ReactComponent as CANVAS } from './SVG/Canvas.svg'
+import { ReactComponent as EXPRESS } from './SVG/Express.svg'
+
 
 
 export const skillData = [
@@ -69,7 +72,7 @@ export const skillData = [
         text:"Express",
         url:'',
         class:"neonTextBlue",
-        icon: "",
+        icon: <EXPRESS />,
     },
     {
         id:8,
@@ -173,6 +176,7 @@ export const skillData = [
         text:"Canvas",
         url:'',
         class:"neonTextBlue",
+        icon: <CANVAS/>,
     },
     {
         id:23,
