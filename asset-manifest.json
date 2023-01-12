@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortFolio-on-React/static/css/main.69be1ac5.css",
-    "main.js": "/PortFolio-on-React/static/js/main.584cbb90.js",
+    "main.js": "/PortFolio-on-React/static/js/main.ff8d3913.js",
     "static/js/787.1ed0c42c.chunk.js": "/PortFolio-on-React/static/js/787.1ed0c42c.chunk.js",
     "static/media/Curator.png": "/PortFolio-on-React/static/media/Curator.1fb5d89f015cea303c51.png",
     "static/media/silvie.png": "/PortFolio-on-React/static/media/silvie.176f94d10a8d8ec363c9.png",
@@ -27,17 +27,19 @@
     "index.html": "/PortFolio-on-React/index.html",
     "static/media/DJANGO.svg": "/PortFolio-on-React/static/media/DJANGO.dedb842add4b39a54f1f3827cce998d1.svg",
     "static/media/Heroku.svg": "/PortFolio-on-React/static/media/Heroku.3dcf65223448d83400bada1f60fa9b18.svg",
+    "static/media/Canvas.svg": "/PortFolio-on-React/static/media/Canvas.373397fc7e46db50cf10610c2a091dc0.svg",
+    "static/media/Express.svg": "/PortFolio-on-React/static/media/Express.b2aad28d0fb7da32933c4e24bf4cdec2.svg",
     "static/media/Mail.svg": "/PortFolio-on-React/static/media/Mail.9dbfe9e507b78b7aefd9c8f5e8348707.svg",
     "static/media/Git.svg": "/PortFolio-on-React/static/media/Git.7f6ede2e69942479e7856f70cf41e8eb.svg",
     "static/media/JS.svg": "/PortFolio-on-React/static/media/JS.ddea9edb97327f2b9ba15d151922c774.svg",
     "static/media/CSS3.svg": "/PortFolio-on-React/static/media/CSS3.b2aa1dcd19c6176410c3395afd680405.svg",
     "static/media/html.svg": "/PortFolio-on-React/static/media/html.5c67c84b4dcbbd09b451bfa327783e5f.svg",
     "main.69be1ac5.css.map": "/PortFolio-on-React/static/css/main.69be1ac5.css.map",
-    "main.584cbb90.js.map": "/PortFolio-on-React/static/js/main.584cbb90.js.map",
+    "main.ff8d3913.js.map": "/PortFolio-on-React/static/js/main.ff8d3913.js.map",
     "787.1ed0c42c.chunk.js.map": "/PortFolio-on-React/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69be1ac5.css",
-    "static/js/main.584cbb90.js"
+    "static/js/main.ff8d3913.js"
   ]
 }
